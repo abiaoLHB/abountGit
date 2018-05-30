@@ -1,1 +1,1 @@
-# abountGit
+# aboutGit
