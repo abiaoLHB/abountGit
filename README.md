@@ -3,14 +3,12 @@
 ```js
     git clone git@github.com:abiaoLHB/aboutGit.git
 ```
-
-
 - 查看git状态
-```js  
-    git status
-···
+```js    
+    git status  
+```
 
-- 添加到暂存区   
+- 添加到暂存区     
 ```js 
     git add . (全部添加到暂存区)
 ···
