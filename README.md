@@ -41,9 +41,18 @@ git init
     git reset --hard 1094a (1094a是日志信息上前面几个字母)
 ```
 
+- 和远程空仓库建立关联
+```js
+    git remote add origin git@github.com:abiaoLHB/aboutGit.git
 
+```
 
+- 推送
+```js
+    git push -u origin master (第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令)
 
+    git push origin master (以后提交)
+```
 
 
 
