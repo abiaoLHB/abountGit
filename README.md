@@ -104,5 +104,35 @@ git push origin  远程分支名字
   ```js
   git checkout -b dev(本地分支名称) origin/dev(远程分支名称)
   ```
+  
+  - 查看远程仓库地址 
+
+  ```js
+  git remote show origin
+  ```
+  
+   - 切换远程仓库地址 
+
+  ```js
+  git remote set-url origin xxx(新的仓库地址)
+  ```
+  
+  
+   - 获取最新代码 
+
+  ```js
+  git pull
+  ```
+  
+  
+  
+  - 参考资料 
+
+  ```js
+  1、https://blog.csdn.net/webofrxy/article/details/80710560
+  ```
+  
+  
+  
 
   
