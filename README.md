@@ -124,7 +124,23 @@ git push origin  远程分支名字
   git pull
   ```
   
-  
+  - 本地项目和github仓库关联
+  ```js
+  // git init 
+  // git add -A
+  // git commit -m ''
+  // git remote add origin https://github.com/aklanfan/**** 
+
+   // 如果远程仓库为空的
+  // git push-u origin master
+
+  // 如果远程仓库不为空的
+  // git pull --rebase origin master
+  // git push origin master
+
+  // 之后就可以正常push代码了
+  ```
+
   
   - 参考资料 
 
