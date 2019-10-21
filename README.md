@@ -149,6 +149,15 @@ git push origin  远程分支名字
   ```
   
   
+  ```js
+  > 拉取gs项目
+  1、先拉下master分支 sudo git clone xxx
+
+  2、在本地建立新的分支,并把远程制定分支拉下来 git checkout -b feauth_2.1.8 origin/feauth_2.1.8
+
+  3、同第二步,拉取不同版本的分支  sudo git checkout -b feauth2.2.0 origin/feauth2.2.0
+  ```
+  
   
 
   
