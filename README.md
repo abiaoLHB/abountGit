@@ -4,20 +4,20 @@
 cd 目录
 git init
 ```
-- 添加到暂存区     
-```js 
+- 添加到暂存区
+```js
 git add test.text (添加某一个指定的文件)
 git add . (全部添加到暂存区)
 ```
 
 - 查看git状态
-```js    
-git status  
+```js
+git status
 ```
 
 - 提交到本地仓库
 ```js
-git commit -m '注释' 
+git commit -m '注释'
 ```
 
 
@@ -59,12 +59,12 @@ git push origin master (以后提交)
 ```
 
 
-- 从远程仓库现在代码   
+- 从远程仓库现在代码
 ```js
  git clone git@github.com:abiaoLHB/aboutGit.git
 ```
 
-- 从SSH切换到HTTP  
+- 从SSH切换到HTTP
 
   ```js
   1、方法一：修改命令：git remote set-url origin [url]    （注释：后面的url不要带[]）
@@ -81,7 +81,7 @@ git push origin master (以后提交)
 git push origin  远程分支名字
 ```
 
-- 把某个分支上的内容都拉取到本地 
+- 把某个分支上的内容都拉取到本地
 
   ```js
   git pull origin <branchName>(远程分支名称)
@@ -95,41 +95,42 @@ git push origin  远程分支名字
 
 - 删除本地分支
 
+
   ```js
   git branch -d <branchName>
   ```
 
-- 在本地创建分支dev并切换到该分支 
+- 在本地创建分支dev并切换到该分支
 
   ```js
   git checkout -b dev(本地分支名称) origin/dev(远程分支名称)
   ```
-  
-  - 查看远程仓库地址 
+
+  - 查看远程仓库地址
 
   ```js
   git remote show origin
   ```
-  
-   - 切换远程仓库地址 
+
+   - 切换远程仓库地址
 
   ```js
   git remote set-url origin xxx(新的仓库地址)
   ```
-  
-  
-   - 获取最新代码 
+
+
+   - 获取最新代码
 
   ```js
   git pull
   ```
-  
+
   - 本地项目和github仓库关联
   ```js
-  // git init 
+  // git init
   // git add -A
   // git commit -m ''
-  // git remote add origin https://github.com/aklanfan/**** 
+  // git remote add origin https://github.com/aklanfan/****
 
    // 如果远程仓库为空的
   // git push-u origin master
@@ -141,16 +142,16 @@ git push origin  远程分支名字
   // 之后就可以正常push代码了
   ```
 
-  
-  - 参考资料 
+
+  - 参考资料
 
   ```js
   1、https://blog.csdn.net/webofrxy/article/details/80710560
   2、https://www.cnblogs.com/best/p/7474442.html
-  3:fatch
+  3、https://www.cnblogs.com/toSeeMyDream/p/5354296.html
   ```
-  
-  
+
+
   ```js
   > 拉取gs项目
   1、先拉下master分支 sudo git clone xxx
@@ -159,7 +160,7 @@ git push origin  远程分支名字
 
   3、同第二步,拉取不同版本的分支  sudo git checkout -b feauth2.2.0 origin/feauth2.2.0
   ```
-  
-  
 
-  
+
+
+
