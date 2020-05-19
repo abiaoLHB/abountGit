@@ -1,3 +1,13 @@
+  - 参考资料
+
+  ```js
+  1、https://blog.csdn.net/webofrxy/article/details/80710560
+  2、https://www.cnblogs.com/best/p/7474442.html
+  3、https://www.cnblogs.com/toSeeMyDream/p/5354296.html
+  ```
+
+
+
 ### 常用git指令
 - 在本地初始化git仓管
 ```js
@@ -143,13 +153,6 @@ git push origin  远程分支名字
   ```
 
 
-  - 参考资料
-
-  ```js
-  1、https://blog.csdn.net/webofrxy/article/details/80710560
-  2、https://www.cnblogs.com/best/p/7474442.html
-  3、https://www.cnblogs.com/toSeeMyDream/p/5354296.html
-  ```
 
 
   ```js
