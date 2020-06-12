@@ -151,11 +151,12 @@ git push origin  远程分支名字
 
   // 之后就可以正常push代码了
   ```
-
-```js
-### non-fast-forward (rejected)
-https://blog.csdn.net/weixin_41287260/article/details/89742151
-```
+  ### non-fast-forward (rejected)
+  ```js
+  https://blog.csdn.net/weixin_41287260/article/details/89742151
+  https://blog.csdn.net/zhangkui0418/article/details/82977519
+  https://blog.csdn.net/benben_2015/article/details/78803753
+  ```
 
   ```js
   > 拉取gs项目
