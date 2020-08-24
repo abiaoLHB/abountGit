@@ -173,6 +173,7 @@ git push origin  远程分支名字
   ```
   ```js
   解决：git pull origin master --allow-unrelated-histories
+  参考：https://blog.csdn.net/u012145252/article/details/80628451
   ```
 
 
