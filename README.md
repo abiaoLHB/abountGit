@@ -167,6 +167,12 @@ git push origin  远程分支名字
   3、同第二步,拉取不同版本的分支  sudo git checkout -b feauth2.2.0 origin/feauth2.2.0
   ```
 
-
+  ### refusing to merge unrelated histories   （拒绝合并不相关的历史）
+  ```js
+  出现这个问题的最主要原因还是在于本地仓库和远程仓库实际上是独立的两个仓库
+  ```
+  ```js
+  解决：git pull origin master --allow-unrelated-histories
+  ```
 
 
